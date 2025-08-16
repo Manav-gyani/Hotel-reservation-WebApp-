@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/Users/Manav/OneDrive/Documents/NetBeansProjects/HotelReservationSystem/src/java/com/hotel/dao/BookingDAO.java</file>
+            <file>file:/C:/Users/Manav/OneDrive/Documents/NetBeansProjects/HotelReservationSystem/web/cancelBooking.jsp</file>
+            <file>file:/C:/Users/Manav/OneDrive/Documents/NetBeansProjects/HotelReservationSystem/web/about.jsp</file>
+            <file>file:/C:/Users/Manav/OneDrive/Documents/NetBeansProjects/HotelReservationSystem/src/java/com/hotel/util/DatabaseConnection.java</file>
+            <file>file:/C:/Users/Manav/OneDrive/Documents/NetBeansProjects/HotelReservationSystem/web/WEB-INF/glassfish-web.xml</file>
+            <file>file:/C:/Users/Manav/OneDrive/Documents/NetBeansProjects/HotelReservationSystem/src/java/com/hotel/model/Room.java</file>
+            <file>file:/C:/Users/Manav/OneDrive/Documents/NetBeansProjects/HotelReservationSystem/src/java/com/hotel/model/Booking.java</file>
+            <file>file:/C:/Users/Manav/OneDrive/Documents/NetBeansProjects/HotelReservationSystem/web/processUpdate.jsp</file>
+            <file>file:/C:/Users/Manav/OneDrive/Documents/NetBeansProjects/HotelReservationSystem/web/index.jsp</file>
+            <file>file:/C:/Users/Manav/OneDrive/Documents/NetBeansProjects/HotelReservationSystem/src/java/com/hotel/util/EmailUtil.java</file>
+            <file>file:/C:/Users/Manav/OneDrive/Documents/NetBeansProjects/HotelReservationSystem/web/processCancellation.jsp</file>
+            <file>file:/C:/Users/Manav/OneDrive/Documents/NetBeansProjects/HotelReservationSystem/src/java/com/hotel/model/Customer.java</file>
+            <file>file:/C:/Users/Manav/OneDrive/Documents/NetBeansProjects/HotelReservationSystem/src/java/com/hotel/dao/CustomerDAO.java</file>
+            <file>file:/C:/Users/Manav/OneDrive/Documents/NetBeansProjects/HotelReservationSystem/web/reservation.jsp</file>
+            <file>file:/C:/Users/Manav/OneDrive/Documents/NetBeansProjects/HotelReservationSystem/src/java/com/hotel/dao/RoomDAO.java</file>
+            <file>file:/C:/Users/Manav/OneDrive/Documents/NetBeansProjects/HotelReservationSystem/web/updateBooking.jsp</file>
+            <file>file:/C:/Users/Manav/OneDrive/Documents/NetBeansProjects/HotelReservationSystem/web/processBooking.jsp</file>
+        </group>
+    </open-files>
+</project-private>

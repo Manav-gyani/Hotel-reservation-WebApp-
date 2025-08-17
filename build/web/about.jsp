@@ -295,11 +295,14 @@
                 <img src="https://images.unsplash.com/photo-1571896349842-33c89424de2d?w=600&h=400&fit=crop" alt="Hotel Vision">
             </div>
         </section>
+        
+        
+        
     </main>
 
     <section class="personal-info">
         <div class="personal-content">
-            <h2>Meet the Owner</h2>
+            <h2>Meet the Owners</h2>
             <div class="owner-card">
                 <div class="owner-image">
                     <i class="fas fa-user"></i>
@@ -325,8 +328,43 @@
                     </div>
                 </div>
             </div>
+          
+            
+        </div>
+    
+    
+    
+        <div class="personal-content">
+            <div class="owner-card">
+                <div class="owner-image">
+                    <i class="fas fa-user"></i>
+                </div>
+                <div class="owner-details">
+                    <h3>Sujal Patel</h3>
+                    <p>Partner & Managing Director</p>
+                    <p>With over 3 years of experience in the hospitality industry, Sujal brings a passion for excellence and a vision for creating extraordinary guest experiences. His dedication to quality and innovation has made our hotel a premier destination for travelers worldwide.</p>
+                    
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>sujalpatel0020@gmail.com</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <span>+91 93136 82537</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Vadodara , Gujarat</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+          
+            
         </div>
     </section>
+    
 
     <section class="stats">
         <div class="stats-container">

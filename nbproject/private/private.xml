@@ -4,14 +4,14 @@
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
             <file>file:/C:/Users/Manav/OneDrive/Documents/NetBeansProjects/HotelReservationSystem/src/java/com/hotel/dao/BookingDAO.java</file>
+            <file>file:/C:/Users/Manav/OneDrive/Documents/NetBeansProjects/HotelReservationSystem/web/css/styles.css</file>
             <file>file:/C:/Users/Manav/OneDrive/Documents/NetBeansProjects/HotelReservationSystem/web/cancelBooking.jsp</file>
             <file>file:/C:/Users/Manav/OneDrive/Documents/NetBeansProjects/HotelReservationSystem/web/about.jsp</file>
             <file>file:/C:/Users/Manav/OneDrive/Documents/NetBeansProjects/HotelReservationSystem/src/java/com/hotel/util/DatabaseConnection.java</file>
-            <file>file:/C:/Users/Manav/OneDrive/Documents/NetBeansProjects/HotelReservationSystem/web/WEB-INF/glassfish-web.xml</file>
             <file>file:/C:/Users/Manav/OneDrive/Documents/NetBeansProjects/HotelReservationSystem/src/java/com/hotel/model/Room.java</file>
             <file>file:/C:/Users/Manav/OneDrive/Documents/NetBeansProjects/HotelReservationSystem/src/java/com/hotel/model/Booking.java</file>
             <file>file:/C:/Users/Manav/OneDrive/Documents/NetBeansProjects/HotelReservationSystem/web/processUpdate.jsp</file>
-            <file>file:/C:/Users/Manav/OneDrive/Documents/NetBeansProjects/HotelReservationSystem/web/index.jsp</file>
+            <file>file:/C:/Users/Manav/OneDrive/Documents/NetBeansProjects/HotelReservationSystem/web/js/hotel-script.js</file>
             <file>file:/C:/Users/Manav/OneDrive/Documents/NetBeansProjects/HotelReservationSystem/src/java/com/hotel/util/EmailUtil.java</file>
             <file>file:/C:/Users/Manav/OneDrive/Documents/NetBeansProjects/HotelReservationSystem/web/processCancellation.jsp</file>
             <file>file:/C:/Users/Manav/OneDrive/Documents/NetBeansProjects/HotelReservationSystem/src/java/com/hotel/model/Customer.java</file>

@@ -10,9 +10,9 @@ import java.sql.SQLException;
 public class DatabaseConnection {
 
 
-    private static final String URL = "jdbc:mysql://localhost:3306/hotel_reservation";
+    private static final String URL = "jdbc:mysql://hopper.proxy.rlwy.net:34995/railway?useSSL=false&allowPublicKeyRetrieval=true&zeroDateTimeBehavior=CONVERT_TO_NULL";
     private static final String USERNAME = "root"; // using the xampp
-    private static final String PASSWORD = ""; // password is empty because of xampp server
+    private static final String PASSWORD = "pzZDmMRhEASPMzKRfJiobRfWwIqjzZFg"; // password is empty because of xampp server
     
     static {
         try {

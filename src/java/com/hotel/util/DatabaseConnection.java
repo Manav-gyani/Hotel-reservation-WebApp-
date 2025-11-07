@@ -31,9 +31,9 @@ public class DatabaseConnection {
 //            FileInputStream fis = new FileInputStream("build/web/dbconfig.properties");
 //            props.load(fis);
 
-            final String url = "jdbc:mysql://sql.freedb.tech:3306/freedb_hotel_db?useSSL=false&allowPublicKeyRetrieval=true";
-            final String user = "freedb_freedb_hotel";
-            final String password = "VfPuM*Gequb7K?&";
+            final String url = "jdbc:mysql://bdr5plt4qazkpioacfwd-mysql.services.clever-cloud.com:3306/bdr5plt4qazkpioacfwd?useSSL=false&allowPublicKeyRetrieval=true";
+            final String user = "uhjchjrzhpehocyo";
+            final String password = "CsUrn1Aw8FncHfqNLbTa";
 
             Class.forName("com.mysql.cj.jdbc.Driver");
             conn = DriverManager.getConnection(url, user, password);

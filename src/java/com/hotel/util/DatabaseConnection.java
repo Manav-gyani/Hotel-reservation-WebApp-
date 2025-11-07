@@ -27,13 +27,13 @@ public class DatabaseConnection {
     public static Connection getConnection() throws SQLException {
          if (conn != null) return conn;
         try {
-            Properties props = new Properties();
-            FileInputStream fis = new FileInputStream("C:/Users/Manav/OneDrive/Documents/NetBeansProjects/HotelReservationSystem/dbconfig.properties");
-            props.load(fis);
+//            Properties props = new Properties();
+//            FileInputStream fis = new FileInputStream("build/web/dbconfig.properties");
+//            props.load(fis);
 
-            String url = props.getProperty("db.url");
-            String user = props.getProperty("db.username");
-            String password = props.getProperty("db.password");
+            final String url = "jdbc:mysql://sql.freedb.tech:3306/freedb_hotel_db?useSSL=false&allowPublicKeyRetrieval=true";
+            final String user = "freedb_freedb_hotel";
+            final String password = "VfPuM*Gequb7K?&";
 
             Class.forName("com.mysql.cj.jdbc.Driver");
             conn = DriverManager.getConnection(url, user, password);

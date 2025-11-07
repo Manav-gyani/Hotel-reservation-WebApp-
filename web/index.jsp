@@ -1,3 +1,6 @@
+<%
+//    response.sendRedirect("Login.jsp");
+%>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -51,6 +54,22 @@
             margin-bottom: 2rem;
             text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
         }
+/*        .profile-icon {
+            content: '?';
+            width: 40px;
+            height: 40px;
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 1.2rem;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            border: 2px solid transparent;
+            position: relative;
+        }*/
 
         .cta-buttons {
             display: flex;
@@ -567,7 +586,10 @@
                 <li><a href="reservation.jsp">Reservations</a></li>
 <!--                <li><a href="#contact">Contact</a></li>-->
             </ul>
-        </div>
+<!--            <div class="profile-icon" onclick="handleProfileClick()" id="profileIcon">
+                
+                    
+        </div>-->
     </nav>
 
     <section class="hero-section">

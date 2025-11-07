@@ -59,7 +59,7 @@
         
         // Email credentials - REPLACE WITH YOUR EMAIL AND APP PASSWORD
         final String senderEmail = "23bca.manavgyani@gmail.com";
-        final String senderPassword = "shrftcvdldlavwas";
+        final String senderPassword = "mxduvqwkytdzkqtu";
         
         Session mailSession = Session.getInstance(props, new Authenticator() {
             protected PasswordAuthentication getPasswordAuthentication() {

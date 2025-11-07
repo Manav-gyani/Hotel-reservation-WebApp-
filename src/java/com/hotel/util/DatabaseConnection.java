@@ -4,26 +4,45 @@
  */
 
 package com.hotel.util;
+import java.io.FileInputStream;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
+import java.util.Properties;
 public class DatabaseConnection {
-
-
-    private static final String URL = "jdbc:mysql://hopper.proxy.rlwy.net:34995/railway?useSSL=false&allowPublicKeyRetrieval=true&zeroDateTimeBehavior=CONVERT_TO_NULL";
-    private static final String USERNAME = "root"; // using the xampp
-    private static final String PASSWORD = "pzZDmMRhEASPMzKRfJiobRfWwIqjzZFg"; // password is empty because of xampp server
+ private static Connection conn = null;
     
-    static {
-        try {
-            Class.forName("com.mysql.cj.jdbc.Driver");
-        } catch (ClassNotFoundException e) {
-            e.printStackTrace();
-        }
-    }
+//    static {
+//        try {
+//            Class.forName("com.mysql.cj.jdbc.Driver");
+//            Properties props = new Properties();
+//            FileInputStream fis = new FileInputStream("dbconfig.properties");
+//            props.load(fis);
+//    
+//        } catch (Exception e) {
+//            e.printStackTrace();
+//        }
+//    }
     
     public static Connection getConnection() throws SQLException {
-        return DriverManager.getConnection(URL, USERNAME, PASSWORD);
+         if (conn != null) return conn;
+        try {
+            Properties props = new Properties();
+            FileInputStream fis = new FileInputStream("C:/Users/Manav/OneDrive/Documents/NetBeansProjects/HotelReservationSystem/dbconfig.properties");
+            props.load(fis);
+
+            String url = props.getProperty("db.url");
+            String user = props.getProperty("db.username");
+            String password = props.getProperty("db.password");
+
+            Class.forName("com.mysql.cj.jdbc.Driver");
+            conn = DriverManager.getConnection(url, user, password);
+            System.out.println("✅ Database connected successfully!");
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        return conn;
+//        return DriverManager.getConnection(URL, USERNAME, PASSWORD);
     }
 }
 

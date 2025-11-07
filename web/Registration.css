@@ -1,0 +1,450 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : 24 Sept 2025, 12:17:56 pm
+    Author     : Manav
+*/
+/* Integrated Registration Page CSS - Exact Login Theme Match */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+/* Form styling */
+form[name="form1"] {
+    width: 100%;
+    max-width: 450px;
+    animation: slideUp 0.6s ease-out;
+}
+
+/* Center tag styling */
+center {
+    width: 100%;
+}
+
+/* Container styling */
+.container {
+    position: relative;
+    width: 100%;
+}
+
+/* Background element */
+.background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 20px;
+    backdrop-filter: blur(10px);
+    z-index: 1;
+}
+
+/* Content wrapper - Main card exactly like login */
+.content {
+    position: relative;
+    z-index: 2;
+    background: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(20px);
+    border-radius: 20px;
+    padding: 3rem 2.5rem 2rem 2.5rem;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    overflow: visible;
+    margin-top: 40px;
+}
+
+/* Profile Icon - positioned above the card like login */
+.content::before {
+    content: '👤';
+    position: absolute;
+    top: -40px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80px;
+    height: 80px;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 2rem;
+    z-index: 10;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* H1 styling - exactly like login - Made more visible */
+h1 {
+    text-align: center;
+    font-size: 1.8rem;
+    color: #333;
+    margin-bottom: 1.5rem;
+    margin-top: 1rem;
+    font-weight: 700;
+    position: relative;
+    z-index: 4;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+/* Table styling - keep table structure but style it like login form */
+table {
+    width: 100% !important;
+    margin: 0 auto;
+    border-collapse: separate;
+    border-spacing: 0 0.5rem;
+}
+
+/* Table row styling */
+tr {
+    margin-bottom: 1rem;
+}
+
+/* Table header styling - like labels in login */
+th {
+    text-align: left;
+    padding: 0.5rem 1rem 0.5rem 0;
+    color: #555;
+    font-weight: 500;
+    font-size: 0.9rem;
+    vertical-align: top;
+    width: 140px;
+}
+
+/* Table data styling */
+td {
+    padding: 0.5rem 0;
+    vertical-align: top;
+}
+
+/* Input styling - exactly like login */
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"] {
+    width: 100%;
+    max-width: 200px;
+    padding: 0.8rem 1rem;
+    border: 2px solid #e1e5e9;
+    border-radius: 12px;
+    font-size: 0.9rem;
+    transition: all 0.3s ease;
+    background: rgba(255, 255, 255, 0.8);
+    color: #333;
+    font-family: inherit;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="number"]:focus {
+    outline: none;
+    border-color: #667eea;
+    background: rgba(255, 255, 255, 1);
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(102, 126, 234, 0.2);
+}
+
+/* Placeholder styling */
+input::placeholder {
+    color: #999;
+}
+
+/* Select dropdown styling - exactly like login inputs */
+select,
+select[id="NC"] {
+    width: 100%;
+    max-width: 200px;
+    padding: 0.8rem 1rem;
+    border: 2px solid #e1e5e9;
+    border-radius: 12px;
+    font-size: 0.9rem;
+    transition: all 0.3s ease;
+    background: rgba(255, 255, 255, 0.9);
+    color: #333;
+    font-family: inherit;
+    cursor: pointer;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23667eea' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3e%3cpolyline points='6,9 12,15 18,9'%3e%3c/polyline%3e%3c/svg%3e");
+    background-repeat: no-repeat;
+    background-position: right 1rem center;
+    background-size: 1rem;
+    padding-right: 2.5rem;
+}
+
+select:focus {
+    outline: none;
+    border-color: #667eea;
+    background: rgba(255, 255, 255, 1);
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(102, 126, 234, 0.2);
+}
+
+/* Phone number field styling */
+input[id="res"] {
+    width: 60px !important;
+    max-width: 60px !important;
+    display: inline-block;
+    text-align: center;
+    background: #f8f9fa;
+    color: #667eea;
+    font-weight: bold;
+    margin-right: 0.5rem;
+    vertical-align: top;
+}
+
+input[name="phn"] {
+    width: 130px !important;
+    max-width: 130px !important;
+    display: inline-block;
+    vertical-align: top;
+}
+
+/* Radio button styling */
+input[type="radio"] {
+    width: 18px;
+    height: 18px;
+    margin: 0 0.5rem 0 0;
+    accent-color: #667eea;
+    cursor: pointer;
+    vertical-align: middle;
+}
+
+/* Font tag styling for radio labels */
+font {
+    color: #555;
+    font-size: 0.9rem;
+    cursor: pointer;
+    transition: color 0.3s ease;
+    margin-right: 1rem;
+    vertical-align: middle;
+}
+
+font:hover {
+    color: #667eea;
+}
+
+/* Button styling - exactly like login */
+.button,
+input[type="submit"],
+input[type="reset"] {
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 12px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin: 0 0.5rem;
+    position: relative;
+    overflow: hidden;
+    font-family: inherit;
+    min-width: 120px;
+}
+
+/* Submit button - blue like login */
+input[type="submit"] {
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    color: white;
+}
+
+/* Reset button - gray like login */
+input[type="reset"] {
+    background: linear-gradient(135deg, #6c757d, #495057);
+    color: white;
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 25px rgba(102, 126, 234, 0.3);
+}
+
+input[type="reset"]:hover {
+    box-shadow: 0 10px 25px rgba(108, 117, 125, 0.3);
+}
+
+input[type="submit"]:active,
+input[type="reset"]:active {
+    transform: translateY(0);
+}
+
+/* Button shimmer effect */
+input[type="submit"]::before,
+input[type="reset"]::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+    transition: left 0.5s;
+}
+
+input[type="submit"]:hover::before,
+input[type="reset"]:hover::before {
+    left: 100%;
+}
+
+/* Button container */
+td[colspan="2"] {
+    text-align: center;
+    padding-top: 1.5rem;
+}
+
+/* H4 and link styling - exactly like login */
+h4 {
+    color: #999;
+    font-size: 0.95rem;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 1.5rem;
+}
+
+h4 a {
+    color: #667eea;
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.3s ease;
+    margin-left: 0.5rem;
+}
+
+h4 a:hover {
+    color: #764ba2;
+    text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    form[name="form1"] {
+        max-width: 95%;
+    }
+    
+    .content {
+        padding: 2rem 1.5rem;
+    }
+    
+    h1 {
+        font-size: 1.8rem;
+    }
+    
+    th {
+        width: 120px;
+        font-size: 0.85rem;
+    }
+    
+    input[type="text"],
+    input[type="email"],
+    input[type="password"],
+    input[type="number"],
+    select {
+        max-width: 180px;
+    }
+    
+    input[name="phn"] {
+        max-width: 110px !important;
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        padding: 10px;
+    }
+    
+    .content {
+        padding: 1.5rem 1rem;
+    }
+    
+    .content::after {
+        width: 60px;
+        height: 60px;
+        font-size: 1.5rem;
+        top: -30px;
+    }
+    
+    h1 {
+        font-size: 1.5rem;
+        margin-top: 1.5rem;
+    }
+    
+    th {
+        display: block;
+        width: 100%;
+        text-align: left;
+        padding-bottom: 0.5rem;
+    }
+    
+    td {
+        display: block;
+        text-align: left;
+        padding-bottom: 1rem;
+    }
+    
+    input[type="text"],
+    input[type="email"],
+    input[type="password"],
+    input[type="number"],
+    select {
+        max-width: 100%;
+        width: 100%;
+    }
+    
+    input[id="res"] {
+        width: 80px !important;
+        max-width: 80px !important;
+        display: inline-block;
+    }
+    
+    input[name="phn"] {
+        width: calc(100% - 90px) !important;
+        max-width: calc(100% - 90px) !important;
+        display: inline-block;
+    }
+    
+    input[type="submit"],
+    input[type="reset"] {
+        width: 45%;
+        margin: 0.25rem 2.5%;
+    }
+}
+
+/* Animation for entrance - exactly like login */
+@keyframes slideUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Focus states for accessibility */
+input:focus,
+select:focus {
+    outline: 2px solid rgba(102, 126, 234, 0.5);
+    outline-offset: 2px;
+}
+
+input[type="radio"]:focus {
+    outline: 2px solid rgba(102, 126, 234, 0.5);
+    outline-offset: 1px;
+}

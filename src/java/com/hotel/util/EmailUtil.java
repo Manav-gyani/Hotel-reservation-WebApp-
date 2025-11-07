@@ -13,7 +13,7 @@ public class EmailUtil {
     private static final String SMTP_HOST = "smtp.gmail.com"; // Change as needed
     private static final String SMTP_PORT = "587";
     private static final String EMAIL = "23bca.manavgyani@gmail.com"; // Change to your email
-    private static final String PASSWORD = "shrftcvdldlavwas"; // Use App Password for Gmail
+    private static final String PASSWORD = "mxduvqwkytdzkqtu"; // Use App Password for Gmail
     
 //    public static boolean sendCancellationConfirmation(String toEmail, String customerName, 
 //                                                        String roomType,String checkIn,String checkOut

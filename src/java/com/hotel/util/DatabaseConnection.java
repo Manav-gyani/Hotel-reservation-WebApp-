@@ -31,7 +31,7 @@ public class DatabaseConnection {
 //            FileInputStream fis = new FileInputStream("build/web/dbconfig.properties");
 //            props.load(fis);
 
-            final String url = "jdbc:mysql://bdr5plt4qazkpioacfwd-mysql.services.clever-cloud.com:3306/bdr5plt4qazkpioacfwd?useSSL=false&allowPublicKeyRetrieval=true";
+            final String url = "jdbc:mysql://bdr5plt4qazkpioacfwd-mysql.services.clever-cloud.com:3306/bdr5plt4qazkpioacfwd?autoReconnect=true&maxReconnects=3&useSSL=false&allowPublicKeyRetrieval=true";
             final String user = "uhjchjrzhpehocyo";
             final String password = "CsUrn1Aw8FncHfqNLbTa";
 

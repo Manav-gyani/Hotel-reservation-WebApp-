@@ -302,7 +302,7 @@
 
     <section class="personal-info">
         <div class="personal-content">
-            <h2>Meet the Owners</h2>
+            <h2>Meet the Owner</h2>
             <div class="owner-card">
                 <div class="owner-image">
                     <i class="fas fa-user"></i>
@@ -334,7 +334,7 @@
     
     
     
-        <div class="personal-content">
+<!--        <div class="personal-content">
             <div class="owner-card">
                 <div class="owner-image">
                     <i class="fas fa-user"></i>
@@ -359,7 +359,7 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </div>-->
           
             
         </div>
